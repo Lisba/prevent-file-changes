@@ -39,7 +39,7 @@ yarn: `yarn add -D prevent-file-changes`
 To set it up in a Git hook, add it to your pre-commit hook. For example, using Husky, add this line to your .husky/pre-commit file:
 
 ```
-npx prevent-file-changes -f README.md sensible.sh -p ".\*\\.env" ".*\\.log"
+prevent-file-changes -f README.md sensible.sh -p ".\*\\.env" ".*\\.log"
 ```
 
 ### CLI
@@ -48,6 +48,12 @@ You can run it as CLI if globally installed:
 
 ```
 prevent-file-changes -f README.md sensible.sh -p ".\*\\.env" ".\*\\.log"
+```
+
+Or using `npx` if locally installed:
+
+```
+npx prevent-file-changes -f README.md sensible.sh -p ".\*\\.env" ".\*\\.log"
 ```
 
 Command-line options:
@@ -79,4 +85,4 @@ In order to collaborate with the project you should:
 
 ## License
 
-The MIT License. Full License [here](https://github.com/Lisba/prettier-plugin-unused-imports-configurable/blob/master/LICENSE)
+The MIT License. Full License [here](https://github.com/Lisba/prevent-file-changes/blob/master/LICENSE)

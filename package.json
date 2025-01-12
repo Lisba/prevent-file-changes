@@ -1,6 +1,6 @@
 {
   "name": "prevent-file-changes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "src/index.js",
   "bin": {
@@ -14,5 +14,22 @@
   },
   "dependencies": {
     "yargs": "17.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisba/prevent-file-changes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lisba/prevent-file-changes/issues"
+  },
+  "homepage": "https://github.com/Lisba/prevent-file-changes#readme",
+  "keywords": [
+    "githook",
+    "pre-commit",
+    "prevent file modifications",
+    "prevent commit files",
+    "protect files",
+    "CLI",
+    "Library"
+  ]
 }
