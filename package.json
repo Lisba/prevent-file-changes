@@ -1,0 +1,18 @@
+{
+  "name": "prevent-file-changes",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "prevent-file-changes": "./bin/preventFileChanges.js"
+  },
+  "description": "A CLI tool designed to prevent specific files or patterns from being modified and committed, ensuring better control over sensitive or protected files in your repository.",
+  "author": "Lisbaldy de Jesus",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yargs": "17.7.2"
+  }
+}
