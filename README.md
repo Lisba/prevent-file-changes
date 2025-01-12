@@ -4,12 +4,12 @@ A CLI tool designed to prevent specific files or patterns from being modified an
 
 ## Characteristics
 
-• Blocks changes to protected files during commits: Prevents committing files or patterns defined in your configuration.
-• Supports file patterns with regular expressions: Allows advanced configurations for targeting groups of files.
-• Integrates with Git hooks: Can be easily set up in pre-commit hooks for seamless protection.
-• CLI-friendly: Configure file paths or patterns directly via command-line options.
-• Customizable and extensible: Provides flexibility to adapt to your repository’s needs.
-• Works with all Git-managed projects: Compatible across repositories and workflows.
+- **🚫 Blocks changes to protected files during commits:** Prevents committing files or patterns defined in your configuration.
+- **🎯 Supports file patterns with regular expressions:** Allows advanced configurations for targeting groups of files.
+- **🔗 Integrates with Git hooks:** Can be easily set up in pre-commit hooks for seamless protection.
+- **💻 CLI-friendly:** Configure file paths or patterns directly via command-line options.
+- **🔧 Customizable and extensible:** Provides flexibility to adapt to your repository’s needs.
+- **🌍 Works with all Git-managed projects:** Compatible across repositories and workflows.
 
 ## Content
 
