@@ -1,0 +1,12 @@
+node_modules
+src
+coverage
+.github
+tests
+*.map
+*.log
+.gitignore
+package-lock.json
+.prettierrc.json
+.prettierignore
+rollup.config.js

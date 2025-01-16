@@ -2,7 +2,7 @@
 
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
-import { preventFileChanges } from '../src/index.js';
+import { preventFileChanges } from '../dist/index.js';
 
 const argv = yargs(hideBin(process.argv))
   .option('filesPaths', {

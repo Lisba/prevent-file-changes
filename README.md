@@ -63,7 +63,7 @@ Command-line options:
 
 ### Library module
 
-Or you can use it as a script importing it as a module and passing to it the files or regex's to protect as arguments:
+Or you can use it as a script importing it as a module and passing to it as arguments the files or regex's to protect:
 
 ```
 import { preventFileChanges } from 'prevent-file-changes';
